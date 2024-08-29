@@ -177,7 +177,7 @@
 // };
 
 // export { register, login, logout, deleteUser };
-import bcrypt from 'bcrypt'
+import bcrypt from 'bcryptjs'
 import jwt from 'jsonwebtoken'
 import  User  from "../models/user.model.js";
 
